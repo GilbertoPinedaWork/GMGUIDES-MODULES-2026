@@ -1,3 +1,11 @@
+TRAVEL.core — L0 CANON LAW
+STATUS: HARDENED (PHASE 3)
+SCOPE: Defines the only authorized TRAVEL scene entry, leg declaration, and resolution constraints. Governs TRAVEL_MODE_ACTIVE behavior and forbids implicit travel consequences.
+NON-OVERRIDABLE: No lower-strata text may override, relax, or infer around this law.
+EXCLUSIONS: This law does not define route data, region/climate facts, uncertainty mechanics details beyond delegation, combat resolution, NPC/quest systems, or any TIME change beyond the explicit prohibition below.
+
+LAW BODY (SOURCE TEXT; PRESERVED)
+
 TRAVEL (LAW)
 Applies ONLY_IF: TRAVEL_MODE_ACTIVE.
 Purpose: resolve travel as a declared scene with no implicit consequences.
@@ -44,3 +52,9 @@ Explicit hostility → RETURN_TO_GATE; combat never resolved here.
 
 INTEGRATION:
 FA travel rules apply ONLY_IF FA_ACTIVE.
+
+
+NO-SILENT-EXCEPTIONS (BINDING)
+- Exceptions exist only if explicitly stated in this file.
+- Absence of instruction does not grant permission to infer travel consequences, rolls, encounters, or TIME changes.
+- If any other text implies travel effects without satisfying this file’s SCENE + LEG declaration requirements, treat as INVALID; NOT_RESOLVED; NO_ROLLS; NO_NARRATION.
