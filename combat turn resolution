@@ -1,0 +1,73 @@
+COMBAT.TURN (LAW)
+Applies ONLY during COMBAT_MODE_ACTIVE. Sole authority for mechanical action and effect resolution.
+
+TURN SEQUENCE (STRICT; inalterable):
+TURN_START → INTENT_DECLARATION → ACTION_EXECUTION → EFFECT_RESOLUTION → TURN_END
+
+TURN_START:
+- Confirm active turn.
+- Apply start-of-turn effects.
+- Verify capacity (surprise/incapacitation).
+If cannot act → consume turn; advance initiative.
+
+INTENT_DECLARATION:
+- Declare intent only.
+- Verify legality.
+- No effects or action consumption.
+Illegal intent → MUST NOT execute.
+
+ACTION ECONOMY (MAX):
+- Action: 1
+- Movement: 1 (splittable/interleavable; ≤ speed)
+- Bonus Action: 1 only if explicitly granted
+- Reaction: 1 per round; valid trigger only; refreshes at start of next turn
+Forced movement does not consume movement.
+
+PROHIBITED:
+Multiple actions, multiple bonus actions, multiple reactions, out-of-turn actions without trigger.
+
+TURN_END:
+- Apply end-of-turn effects.
+- Release turn; advance initiative.
+
+EXCEPTIONS:
+Only if explicitly granted by higher authority; NEVER inferred.
+
+RESOLUTION ENGINE (EXCLUSIVE):
+No mechanical effect outside this engine.
+INVALID to apply effects outside EFFECT_RESOLUTION or outside the active turn.
+
+RESOLUTION ORDER (STRICT):
+VALID_ACTION →
+ROLL_IF_REQUIRED →
+APPLY_MODIFIERS →
+COMPARE_AC_OR_DC →
+SUCCESS_OR_FAILURE →
+APPLY_DAMAGE →
+APPLY_CONDITIONS →
+UPDATE_STATE
+Skipping/reordering/omitting → INVALID.
+
+ATTACKS / SAVES:
+Result ≥ AC or DC → success.
+
+DAMAGE:
+Apply only on success.
+Quantified only.
+Reduce current HP.
+
+HP = 0:
+Trigger rules immediately; omission → INVALID.
+
+CONDITIONS:
+Exist only if applied by rule during resolution.
+Implicit conditions → non-existent.
+
+REACTIONS:
+INVALID without valid trigger or more than one per round.
+
+PROHIBITED DURING RESOLUTION:
+Narrative alteration, dramatic adjustment, ignoring HP=0, undeclared conditions.
+
+UI:
+All mechanical output MUST be within [RESOLUTION]; otherwise INVALID.
