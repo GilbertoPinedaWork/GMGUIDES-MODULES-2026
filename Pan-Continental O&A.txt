@@ -1,0 +1,14 @@
+Pan-Continental O&A
+-(VGU)Vanguard Union[TN]: Adventurer's guild; provides quests. Guildhalls in cities/towns have, job boards. Ally: PIL, CNL, EC, TUB; HQ: Eden
+-(ARC)Arcane Conclave[LN]: Oversees magic study & use; hunts forbidden/shadow/dark/necromantic magic. Rival BWA & IFU. Inquisitors travel w/ authority; HQ: Aere
+-(CNL)Coin Lords[LN]: Coordinate continent-wide trade & investment. Competes w/ local guilds, targeted by all criminal orgs; HQ: Leskyir
+-(PIL)Pilgrim Order[NG]: Religious & charitable; ubiquitous temples catering to all faiths. Provides healing, shelter, & intel(rumors) for RD, ARC; HQ: Eden 
+-(STL)Steelblade Legion[LN]: Premier mercs for hire across Al’mundi. Usually for escort, bodyguard, patrols. Ally: CNL; HQ: Leskyir
+-(EC)Explorer’s Consortium[TN]: Sponsors exploration, mapping, & discovery of ancient ruins/artifacts. Rivals: DRO, BWA, FNK; Ally: SKC; HQ: Eden
+-(RD)Ruby Dagger[LE]: Clandestine assassin & spy network; sells hits & intel w/ exorbitant prices. Ally: OBC; HQ: MP
+-(EL)Ebony Ledger[NE]: Shadow corp: extortion, racketeering, blackmail, slave trade. Clashes w/ local criminals for territory & profit; w/ law enforcement in general; HQ: GD
+-(IFU)Iron Fang Union[CE]: secretive radical militant terrorist/anarchist rich & powerful mages seek to topple organized governments. Rival: ARC; HQ: FA
+-(FNK)Finders Keepers[CG]: Ragtag crew of enigmatic misfits & a cowardly mastiff; bumbles thru ruins w/ dumb luck, uncanny charm & talent for treasure hunting; has impeccable timing, swoops in clumsily but still manages to save the day; Rivals: EL, IFU, GPX, CSW, COR, RST, DRO, BWA; Ally: PIL, VGU; HQ: airship(Enigma Engine)
+-(TUB)The Unbound[NG]: covert runners; helping escaped slaves, refugees, political dissidents; safehouses in every Set. Rival: OBC, EL, HCA; Ally: PIL, FNK; HQ: IM
+-(FHI)Fluid-Heart Initiative[NG]: Inventors creating affordable magi-tech for commoners vs monopoly of high-end guilds. Rival: ART, CNL, ORM; Ally: HBP, EC; HQ: Gigge
+-(TJU)Titanium Justicars[LG]: Order of knight-jurist, smites corruption, judges in high-profile disputes; feared by nobility. Rival: HCA, OBC, GPX; Ally: PIL; HQ: Edge

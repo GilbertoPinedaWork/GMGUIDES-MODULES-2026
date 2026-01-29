@@ -1,0 +1,72 @@
+FA.SETTLEMENT.TEAFIELD (LAW)
+Region: Forest of Allanar.
+Settlement: Teafield.
+Type: Village.
+Authority: FA settlement state module.
+
+ACTIVATION (HARD):
+Valid ONLY_IF:
+- FA.SETTLEMENT.TOGGLE selects FA.SETTLEMENT.TEAFIELD
+- FA.INDEX.LOCKED = ON
+INVALID if any other FA.SETTLEMENT.* unit is active.
+
+SCOPE:
+When active, this unit is the COMPLETE and ONLY authoritative settlement state for Teafield.
+When inactive, this unit does not exist and MUST NOT be referenced.
+
+COORDINATE SYSTEM (FIXED):
+- Coordinates are relative settlement space.
+- Origin (0.0, 0.0) = central communal axis of Teafield.
+- Coordinates are authoritative ONLY for narrative positioning and spatial consistency.
+INVALID to interpret coordinates as distance, travel time, adjacency, movement cost,
+combat positioning, timing, or mechanical reach.
+
+STRUCTURES WITH FIXED COORDINATES (CLOSED SET):
+
+AGRICULTURAL / PRODUCTION:
+- Amber Plantation: (0.2, 0.1)
+
+HOSPITALITY:
+- Kettle Inn: (-0.1, -0.2)
+
+RESIDENTIAL / LOCAL:
+- Green Hut: (-0.3, 0.3)
+
+STORAGE / PROCESSING:
+- Tea Sheds: (0.4, -0.3)
+
+TRADING POSTS:
+- Tea Market Stall: (0.1, 0.0)
+- Blend Counter: (-0.2, 0.0)
+
+ARTISAN:
+- Press House: (0.5, -0.1)
+
+RELIGIOUS:
+- Field Chapel: (0.0, 0.4)
+
+DEFENSE:
+- Guard House: (-0.1, 0.2)
+- Nightwatch Post: (0.2, -0.1)
+
+PERIMETER CONTROL:
+- Fence Gate North: (0.0, 0.6)
+
+INVALID to reference any structure, POI, district, or coordinate not listed above.
+
+NPC TEXTURE PROFILE:
+Narrative tone constraints only.
+INVALID to infer mechanics, authority, knowledge, memory, commitment, or persistence.
+NPC behavior remains governed by NPC.LAW.FA and NPC.LAW.CORE.
+
+PROHIBITIONS:
+- No regional FA rule override
+- No combat mechanics
+- No travel mechanics
+- No implicit NPC creation, memory, or commitment
+- No inference from coordinates to time, speed, or reach
+
+DEACTIVATION:
+On settlement switch or FA deactivation:
+- Unit MUST be removed on the next reinjection cycle.
+- All authority ceases immediately.

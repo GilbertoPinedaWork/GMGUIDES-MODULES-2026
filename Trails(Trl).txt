@@ -1,0 +1,14 @@
+Trails(Trl)
+
+Trails(Trl)
+1) Frst Trl(N): Aere↔Cerallya↔Andizyre; 63 mi; H–dense forest
+2) Frst Trl(E): Aere↔Smoo↔Easlym; 68 mi; H–thorns
+3) Plns Trl: Gree↔Mornholt↔rvb↔Hear; 88 mi; E–open plains
+4) Mt Trl(S): Veladhur↔Gondoba↔Therum; 91 mi; H–Steep mt
+5) Mt Trl(W): Veladhur↔Dhuran↔Venragh↔Shav; 74 mi; H–narrow ledges
+6) Ironhaven Trl: Veladhur↔Ironhaven; 36 mi; H–sharp incline
+7) Swamp Trl: Dust↔Istegan↔Varapor; 280 mi(total); (Dust↔Istegan): 160mi, M–Muddy; (Istegan↔Varapor): 120mi, H–Deep Bog
+8) Lake Trl: Hillbur↔Gigge; 28 mi; E–lake edge
+9) Willow Trl: Briarford↔Willowrun; 32 mi; E–Farm path
+10) Gnome's Trl: Strauvani ↔ Allanar Rd Junction; 85 mi; E–paved road
+11) Kharn Trl: Glorre↔Kharn; 38 mi; H–Marsh

@@ -1,0 +1,49 @@
+Types of Settlements(Set)
+
+Types of Settlements(Set)
+===
+Metropolis[Met] (50k+ pop; ~2.5-3mi ⌀; w/ towering magically reinforced walls; 4-5 zones): Nat'l capital: Economic, socio-cultural, political hub
+-10-15 marketplaces w/ local, regional, & exotic imported goods; many taverns/inns/bathhouses/vendors
+-5-8 artisan shops; specialized/masterwork & luxury items(smiths/jewelers/alchemists/enchanters)
+-2-3 magic academies or towers
+-3-5 temples, shrines, Cathedrals, & HQs for religious orders
+-Formal guard & a strong military presence; 2-3 barracks, 5-10 stations, constant patrols
+-Ports, harbors, river docks
+-3-4 theaters, arenas for entertainment
+Atmosphere & Gameplay(A&G): Chaotic, crowded, busy, diverse, anonymous, high-society; visible wealth vs poverty
+Quests: National intrigue, espionage, guild wars, political plots, spy networks, arcane mysteries, +City quests(stack)
+---
+City (20k–49,999 pop;~1.5–2.5 mi ⌀; w/ fortified walls; 3-4 zones): Satellite for trade & governance
+-5-8 marketplaces w/ local staples, regional, & some imported goods; inns/taverns/bathhouses/vendors
+-3-5 artisan shops(smiths/alchemists)
+-1-2 magic academies or towers
+-2-3 temples/shrines
+-Ports, harbors, river docks
+-1 theaters, 1arena for entertainment
+-Formal guard & a small military; 1-2 barracks, 4-8 stations, frequent patrols
+A&G: Bustling rumor-mill; status & reputation matter; clear social divides; active streets
+Quests: Org rivalries, high-profile bounties/escorts/body guard/trade routes, +Town quests(stack)
+---
+Town (1k–19,999 pop; ~1–1.5 mi ⌀; enclosed by wooden palisades; 2 zones): Rural hub; focus on agriculture & basic trade
+-3-5 marketplaces w/ local essentials & regional goods; inns/taverns/bathhouses
+-2-3 artisans (tools/clothing/food/practical goods)
+-1 temple/shrine
+-Town watch & local militia; 1 barracks, 3-6 stations, few patrols
+A&G: Pastoral rhythm; familiar faces, strangers stand out; life centers on market/seasons
+Quests: Bandits/gangs, trade disputes, large wildlife threats, local governance, +Vil quests(stack)
+---
+Village[Vil] (100-999 pop; ~0.5–1 mi ⌀; enclosed by fences): Small, tight-knit, rural, relying on subsistence agriculture & limited trades
+-1-3 trading posts(basic goods), 1 inn/tavern "local spot"
+-1-2 artisans(smith/carpenter)
+-1 chapel
+-Local/night watch & volunteers; 1 guard house, 1-3 stations
+A&G: Tight-knit gossip hub; cooperative/interdependent; outsiders noticed immediately
+Quests: Farm pests, lost locals, neighbor disputes, repair/labor, +Ham quests(stack)
+---
+Hamlet[Ham] (<100 pop; ~0.1–0.5 mi ⌀; no walls): Frontier; self-sufficient w/ min structures
+-1-2 shops for occasional/seasonal trade, 1 inn
+-Essential crafter(1 smith/carpenter)
+-1 shrine
+-No formal defense
+A&G: Isolated survivalists; wary/xenophobic; intimate knowledge of everyone
+Quests: Crop defense, water supply, predator hunts, basic chores
