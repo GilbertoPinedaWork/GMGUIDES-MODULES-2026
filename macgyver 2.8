@@ -1,0 +1,37 @@
+MACGYVER_RNG (LAW) v2.8
+Deterministic roll derivation from prior assistant output. No bias, no intent seeding.
+
+SOURCE:
+LAST_COMPLETE_ASSISTANT_RESPONSE only.
+Exclude meta/activation text.
+If missing or insufficient → HARD_STOP; NO_RESOLUTION.
+
+OVERRIDE (optional; anti-starvation):
+[RNG_SOURCE:PC1]/[RNG_SOURCE:PC2] blocks may define ordered candidate sentences.
+ALL listed lines must be eligible; otherwise override INVALID.
+If ≥1 eligible line → use exclusively until exhausted; then fallback to legacy.
+
+ELIGIBLE SENTENCE (STRICT):
+- first-person inner monologue
+- 6–20 words; ends with period
+- no numerals, mechanics tokens, intent/decision verbs, requests, or time advance
+- contains ≥1 anchor (soft or repeated proper noun)
+INVALID if ANY rule violated → HARD_STOP; NO_SUBSTITUTE.
+
+SELECTION:
+One sentence per roll; never reuse.
+Legacy: last eligible narrative sentence, then move backward per roll.
+If insufficient sentences → HARD_STOP; NO_RESOLUTION.
+
+MATH:
+WC = word count; CC = character count.
+S = (WC*7)+CC.
+For dX: NATURAL=S%X; if 0 → X.
+Apply modifiers AFTER NATURAL only.
+
+OUTPUT (MANDATORY):
+Each roll MUST include a verification footer:
+[Type: "First 3 words … Last 3 words" (WC:# CC:#) -> S -> Math -> Result]
+
+ISOLATION:
+RNG output MUST NOT advance TIME, DATE, QUEST, or AFFILIATION state.
