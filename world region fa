@@ -1,0 +1,198 @@
+UNIT_ID: WORLD.REGION.FA
+UNIT_TYPE: WORLD_CANON
+STATUS: LOCKED
+SCOPE: GLOBAL
+CANON_MODE: READ_ONLY
+AUTHORITY: CORE.ALWAYS
+VERSION: 1.0.0
+
+────────────────────────────────
+BEGIN_CANON
+────────────────────────────────
+
+REGION:
+Forest of Allanar (FA)
+TYPE: Dense magical forest
+AREA: 200 sq mi
+CENTER: Aeressari (around ancient tree)
+
+HISTORY:
+Elven Kingdom of Allanar fell to civil war
+
+FEATURES:
+Overgrown ruins, moss, fey, treants, dryad groves
+
+POPULATION (CANONICAL DISTRIBUTION):
+High Elf 25%
+Wood Elf 25%
+Sea Elf 10%
+Eladrin 10%
+Drow 10%
+Other 20% (Forest Gnome, Human, Aasimar, Centaur)
+
+────────────────────────────────
+SETTLEMENTS (CLOSED; EXHAUSTIVE; COORDINATES CANONICAL)
+────────────────────────────────
+
+Metropolis:
+- Aeressari [Aere] (162,176)
+  DESC: Living elven metropolis grown from ancient tree and living stone;
+        political, religious, and magical center of FA
+
+City:
+- Cerallya (135,198)
+  DESC: Ancient wood elf city once hidden by enchantment;
+        cultural, musical, and spiritual hub seeking restoration
+
+Towns:
+- Andizyre (154,219)
+  DESC: Beast-hunter town; monster slaying, parts trade, frontier defense
+- Stormwood [Smoo] (206,165)
+  DESC: Storm-battered trade port near northern mountains;
+        wind, sea traffic, hardened infrastructure
+- Strauvani (176,81)
+  DESC: Trade route stop; inns, stables, caravan services
+
+Villages:
+- Oakwood [Oak] (87,99)
+  DESC: Human logging village under strict lumber treaty;
+        elven oversight and racial tension
+- Esalym (195,147)
+  DESC: Small forest village; subsistence living, minimal external influence
+- Teafield (104,150)
+  DESC: Agrarian village; tea cultivation, quiet trade stop,
+        low political importance
+
+INVARIANT:
+Any settlement not listed above DOES NOT EXIST in the Forest of Allanar.
+
+────────────────────────────────
+FACTIONS (EXISTENCE ONLY)
+────────────────────────────────
+
+Cerulean Conclave [CRC] (NG)
+  ROLE: Forest protection and balance
+  RIVAL: Order of the Root Maw
+
+Violet College [VCG] (LN)
+  ROLE: Magical education and research
+  ALLY: Arcane Registry Conclave
+  RIVAL: Arcane Tyranny Enclave
+
+Seldarine Court [SDC] (CN)
+  ROLE: Elven divine governance and diplomacy
+  RIVAL: Infernal Fracture Union
+
+Moss Cloak Sentinels [MSC] (NG)
+  ROLE: Settlement and traveler protection
+  ALLY: Cerulean Conclave
+
+Dire Root Cabal [DRO] (CE)
+  ROLE: Blood and shadow corruption cult
+  ALLY: Infernal Fracture Union
+  RIVAL: Moss Cloak Sentinels, Violet College, Cerulean Conclave
+
+────────────────────────────────
+AERESSARI — SUB-SETTLEMENT TOPOLOGY (EXISTENCE ONLY)
+────────────────────────────────
+
+Elder Core  X[-0.4,0.4] Y[-0.4,0.4]
+- Seldarine Hall (0,0)
+- Conclave Spire (0.1,0.2)
+- Sanctum of the Cycle (-0.1,-0.1)
+- Emerald Canopy (0.2,-0.2)
+
+Magic Ward NW  X[-1.3,-0.4] Y[0.4,1.4]
+- Violet College Academy (-0.8,0.9)
+- Inquisitor Fort (-0.6,0.7)
+- Scholar Alley (-0.7,0.6)
+
+Market Ward SE  X[0.4,1.4] Y[-1.4,0.4]
+- Grand Nexus (0.9,-0.5)
+- Leaf Enclave (1.1,-0.8)
+- Gold Goblet (0.6,-1.1)
+
+Sentinel Ward NE  X[0.4,1.4] Y[0.4,1.4]
+- Evergreen Bastion (0,1.3)
+- Living Branches (0.8,1.2)
+- Eladrin Rise (1.1,0.9)
+
+Root Ward SW  X[-1.4,0.4] Y[-1.4,-0.4]
+- Earthen Shift (-0.8,-1.1)
+- Ruin Pit (-1.1,-1.3)
+- Root Cellar (-0.7,-1.0) [HIDDEN]
+
+────────────────────────────────
+OTHER SETTLEMENT TOPOLOGY (EXISTENCE ONLY)
+────────────────────────────────
+
+CERALLYA:
+- Harmony Grove (0.1,0)
+- Cerulean Sanctuary (0.1,0.2)
+- Songer Hall (-0.2,0.1)
+- Fey Bowyer (-0.5,0.5)
+- Sleepy Leaves (0.3,-0.4)
+- Herb Agora (0.7,-0.7)
+- Moss Post (-0.8,-0.9)
+
+ANDIZYRE:
+- Hunter Hall (0,0.1)
+- Scaled Tavern (0.1,-0.2)
+- Skinner Row (-0.3,0.2)
+- Carver Shop (0.4,0.2)
+- North Tower (0,0.6)
+- Vanguard Guild Union Station (-0.4,-0.5)
+
+STORMWOOD:
+- Shell Inn (0.3,-0.2)
+- Bubbling Vial (-0.2,0.2)
+- Basic Cast (0.3,0.3)
+- Gale Docks (-0.5,0.5)
+- Storm Hardened Imports (-0.5,-0.4)
+
+OAKWOOD:
+- Sawmill Hall (0.1,-0.1)
+- Axe Tavern (0.2,0.3)
+- Spin Yard (-0.5,-0.2)
+- Foreman Office (0.4,-0.4)
+- Elven Perch (-0.8,0.6)
+
+STRAUVANI:
+ROLE: Trade route stop; multiple inns
+
+────────────────────────────────
+END_CANON
+FREEZE: TRUE
+
+────────────────────────────────
+GUARDRAILS (ENFORCEMENT-ONLY; NON-CANON)
+────────────────────────────────
+
+GR-A CANON COMPLETENESS LOCK:
+INVALID if any FA settlement, district, POI, faction, or landmark
+not explicitly listed above is referenced as existing.
+
+GR-B COORDINATE INTERPRETATION FIREWALL:
+INVALID if any coordinate above is interpreted as distance, travel time,
+speed, adjacency, movement cost, combat range, or mechanical reach.
+
+GR-C FACTION SIMULATION BLOCK:
+INVALID to assume activity, influence, control, or action
+from any faction above without explicit activation.
+
+GR-D READ-ONLY CANON ENFORCEMENT:
+INVALID to modify, extend, reinterpret, or summarize canon
+into new facts. Any conflict → canon prevails.
+
+GR-E DEPENDENCY SUPREMACY:
+INVALID if any FA-related module contradicts this unit.
+Conflict resolution ALWAYS favors WORLD.REGION.FA.
+
+GR-F NO BACKGROUND SIMULATION:
+INVALID to simulate population movement, settlement change,
+or offscreen events inside FA without explicit, logged events.
+
+GR-G SCOPE CONTAINMENT:
+INVALID to apply FA constraints outside the Forest of Allanar region.
+
+END
