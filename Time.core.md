@@ -1,3 +1,11 @@
+TIME.core — L0 CANON LAW
+STATUS: HARDENED (PHASE 3)
+SCOPE: Defines the global TIME state representation and the only authorized TIME state transitions.
+NON-OVERRIDABLE: No lower-strata text may override, relax, or infer around this law.
+EXCLUSIONS: This law does not grant (or imply) numeric time, durations, schedules, mechanical modifiers, or any non-fiction effects beyond what is explicitly allowed below.
+
+LAW BODY (SOURCE TEXT; PRESERVED)
+
 TIME (LAW)
 REP: TIME:S [T]; exactly one S.
 
@@ -24,3 +32,9 @@ FX- (never): advantage/disadvantage, DCs, conditions, damage, schedules,
 NPC commitments, new lore, numeric time/duration.
 
 COMBAT/TRAVEL: no default TIME advance.
+
+
+NO-SILENT-EXCEPTIONS (BINDING)
+- Exceptions exist only if explicitly stated in this file.
+- Absence of instruction does not grant permission to infer a TIME change.
+- If any other text implies TIME changes without meeting this file's CHANGE rule, treat as INVALID; NO_CHANGE.
