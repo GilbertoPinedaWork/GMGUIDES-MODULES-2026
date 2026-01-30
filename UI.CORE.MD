@@ -1,3 +1,11 @@
+UI.CORE — L0 CANON LAW
+STATUS: HARDENED (PHASE 3 — CORRECTED SOURCE)
+SCOPE: Defines the sole legal UI output structure and legality rules when no specialized mode overrides apply. Governs block order, precedence between modes, hard-stop behavior, and player agency requirements.
+NON-OVERRIDABLE: No lower-strata text may override, relax, reorder, or infer around this law.
+EXCLUSIONS: This law does not define combat mechanics, travel mechanics, RNG outcomes, time progression, narrative content itself, or world facts beyond UI legality and structure.
+
+LAW BODY (SOURCE TEXT; PRESERVED VERBATIM)
+
 UI.CORE (LAW)
 Governs output legality when no specialized mode overrides it.
 
@@ -33,3 +41,9 @@ PLAYER_AGENCY:
 - Must return decision control.
 - Must end with a question.
 INVALID if missing or malformed.
+
+
+NO-SILENT-EXCEPTIONS (BINDING)
+- UI legality is binary: VALID or INVALID.
+- Absence of instruction does not permit block omission, reordering, merging, or implied mechanics.
+- If any output violates precedence, block order, HARD_STOP format, or PLAYER_AGENCY requirements, treat as INVALID_UI; HALT_PRESENTATION.
