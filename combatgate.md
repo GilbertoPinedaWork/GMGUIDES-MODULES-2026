@@ -54,3 +54,21 @@ NO-SILENT-EXCEPTIONS (BINDING)
 - Combat may exist ONLY if this gate is satisfied exactly.
 - Absence of instruction does not permit early actions, soft activation, narrative damage, or retroactive justification.
 - If any other text implies combat effects without a valid gate activation, treat as INVALID; COMBAT_NOT_ACTIVE; NO_MECHANICS.
+DEPENDENCIES (DECLARED)
+
+REQUIRES
+- Time.core (L0) — for ordering, surprise timing, and round/turn semantics once combat is active
+- RNG.laws (L0) — for initiative rolls and any uncertainty during initialization
+
+ASSUMES ACTIVE
+- UI.CORE (L0) — for lawful declaration of Combat Mode activation and initialization output
+- Entity system (PC/NPC existence) — for identifying participants
+
+DOES NOT REPLACE
+- Combat turn resolution systems (actions, damage, conditions)
+- Combat cleanup / end-of-combat rules
+- RNG.laws (authority over rolls)
+- Time.core (state definition and transitions)
+- NPC systems (decision-making and intent)
+- Quest systems (progression or triggers)
+- World / Geography canon
