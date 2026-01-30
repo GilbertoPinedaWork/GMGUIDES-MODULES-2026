@@ -1,0 +1,6 @@
+Main Roads(Rd)
+1) Northern Trade Rd: Gree↔Briarford↔Leskyir↔Serenity↔Dust; 286mi(total); (Gree↔Briar): 26mi, E–Paved; (Briar↔Leskyir): 130mi, M–Sandy; (Leskyir↔Dust): 130mi, M–Soft Sand
+2) Allanar Rd: Leskyir↔Oakwood↔Teafield↔Aeressari; 295mi(total); (Leskyir↔Oakwood): 150mi, M–Desert fringe; (Oak↔Aere): 145mi, E–Paved Road
+3) Western Rd: Leskyir↔Sand↔SvS↔Hillbur↔Veladhur; 169mi(total); (Leskyir↔Sand): 35mi, E–Flat Desert; (Sand↔SvS): 55mi, M–Dunes; (SvS↔Veladhur): 79mi, H–Steep mt
+4) Delta Coast Rd: Pyre↔Esabury↔Edge↔Eden; 85mi(total); (Pyre↔Esabury): 40mi, H–Cliffs; (Esabury↔Edge): 32mi, M–Rolling Hills; (Edge↔Eden): 13mi, E–Promenade
+5) Delta River Rd: Eden↔Mirevon↔Vlinas↔Glorre↔SvS; 200 mi; (Eden↔Glorre): 140mi, M–Hills; (Glorre↔SvS): 60mi, M–Muddy

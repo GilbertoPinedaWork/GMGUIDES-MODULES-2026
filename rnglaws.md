@@ -1,3 +1,11 @@
+RNG.laws — L0 CANON LAW
+STATUS: HARDENED (PHASE 3)
+SCOPE: Defines the only authorized uncertainty resolution via rolls/checks and the only authorized RNG source. Governs when rolls are permitted or prohibited and forbids narrative resolution of uncertain outcomes without lawful rolls.
+NON-OVERRIDABLE: No lower-strata text may override, relax, or infer around this law.
+EXCLUSIONS: This law does not define non-uncertain narration, time/date progression, travel mechanics, combat mechanics, quest logic, UI presentation, or any non-RNG world facts beyond roll resolution constraints.
+
+LAW BODY (SOURCE TEXT; PRESERVED)
+
 RUNTIME_UNCERTAINTY (LAW)
 Purpose: resolve uncertainty via rolls/checks. ALL uncertain outcomes MUST defer here.
 
@@ -40,3 +48,9 @@ INVALID to resolve UNKNOWN by invention; must return agency or request clarifica
 
 FLAVOR TRAITS (OPTIONAL):
 Tone only; INVALID if used to affect mechanics, outcomes, intent, or time.
+
+
+NO-SILENT-EXCEPTIONS (BINDING)
+- Exceptions exist only if explicitly stated in this file.
+- Absence of instruction does not grant permission to roll, to bypass rolls, to select/bias outcomes, or to introduce new facts.
+- If any other text suggests resolving uncertainty without satisfying this file’s APPLY + MANDATES + AUTHORITY rules, treat as INVALID; NO_RESOLUTION; RETURN_AGENCY.

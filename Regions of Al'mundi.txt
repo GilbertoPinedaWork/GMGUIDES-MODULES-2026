@@ -1,0 +1,126 @@
+Regions of Al'mundi
+
+Regions of Al'mundi
+===
+Forest of Allanar[FA] (NE): 200-sqmi dense magical forest, devouring ruins & treasures from the once great Elven kingdom of Allanar (fell to civil war) overgrown w/ moss. Home to Fey tricksters; ancient treants protect dryad groves. Aere is centered around a colossal ancient tree.
+-Races: 25%High Elves, 25%Wood Elf, 10% Sea Elf, 10%Eladrin, 10% Drow, 20%(Forest Gnome, Human, Aasimar, Centaur)
+Set:
+Met: Aeressari[Aere](162,176)
+City: Cerallya(135,198)
+Town: Andizyre(154,219), Stormwood[Smoo](206,165), Strauvani(176,81)
+Vil: Oakwood[oak](87,99), Esalym(195,147), Teafield(104,150)
+Organizations(org)/factions & Alignment(O&A):
+-(CRC)Cerulean Conclave[NG]: Protect forests & maintain balance between nature & civilization; Rival: ORM
+-(VCG)Violet College[LN]: Teach magic use & study. Ally: ARC; Rival: ATE
+-(SDC)Seldarine Court[CN]: Appear in court, oversee diplomacy, & governance, constantly bicker & compete among each other; Rival: IFU
+-(MSC)Moss Cloaks[NG]: Protect settlements & travelers; Ally: CRC
+-(DRO)Dire Root[CE]: cabal: forbidden blood/shadow magic to free an ancient evil by corrupting the forest; Ally: IFU; Rival: MSC, VCG, CRC
+Politics & Governance(P&G):
+-Council of experts(archmages, craftmasters, religious leaders). Power shared. Meritocracy for scholars
+-Conflicts resolved thru debate or duels of martial skill/magic
+Culture:
+-Architecture integrates seamlessly w/ nature
+-Pastimes: sculpting, archery, ruin exploration, treasure hunting
+---
+Starview Plains[SP] (NW): Fertile plains & grassland, few rolling hills; named after a sea of stars visible at night. Home to various species of beastkin
+-Races: 15%Human, 15%Halfling, 10%Satyr, 10%Shifter, 10%Aarakocra, 10%Leonin, 10%Loxodon, 10%Minotaur, 10%Tabaxi
+Set:
+Town: Hearthvale[hear](-177,183)
+Vil: Greenstead[gree](-106,155), Mornholt(-142,158), Riverbrook[rvb](-163,155)
+Ham: Willowrun(-138,111), Briarford(-115,133)
+O&A:
+-(HBP)Harvest Pact[LG] : Manage crop production, livestock, & trade; views ATE as merc mages; believe the ritual is sacred family duty; Rival: CNL, RST
+-(ATE)Argent Tether[CG]: Abjuration mages, help w/ the Ritual. Friction: HBP; Rival: ARC, RST
+-(RST)Rusty Plow Gang[NE]: thugs doing protection rackets on ranches, farms & homesteads; capitalizing on the curse; Ally: EL
+P&G:
+-Governed by mayors/village chiefs
+-Trade agreements & dispute resolution managed locally; large-scale conflicts unheard of
+-Governance is practical, maintain community stability
+Culture:
+-Strong traditions in farming & communal life
+-Architecture: simple farmhouses, barns
+-Crescent Moon Curse(2/month)[NOT LYCANTHROPY]: agonizing, involuntary transformation resulting in a feral frenzy; for beastkin born on a crescent moon
+-Chaining Ritual: Mandatory for neighbors/family to physically & magically restrain the Crescent-born. High Tension & dangerous; Curfew: sundown on ritual nights
+-Festivals w/ folk music, storytelling circles & board games under starry nights, archery contests, horse racing
+---
+Ghivanni Delta[GD] (Mid-West): Busiest, most heavily populated region. Warm coastal (beaches, cliffs, harbors); bioluminescent coves, shifting sandbars, & ancient shipwrecks visible at low tide. Eden; (sea/river port trading nexus). Edge: NW of Eden, a running joke is that it will eventually become a part of Eden; home to many large wealthy estates of nobles & aristocrats. Pyre port(Pyre): fast growing free port competing w/ Eden; aka "Pirate Port". Esabury: elf-centric, severely xenophobic town. 
+-Sovereign Span[SvS](Bridge): Fortified bridge over GR at the MP/GD/IRM tri-border junction. A vital trade chokepoint splitting into the Western Rd & Delta River Rd. CNL charge heavy tolls; DNR smuggle good to GD/IRM sides at night
+-Races: 25%Halfling, 25%Triton, 25%Human, 25%(Tiefling, Tortle, Dwarf, Elf, Orc, Aasimar)
+Set:
+-Met: Emberden[Eden](-193,-55)
+-Cities: Emberridge[Edge](-195,-45), Pyre(-172,10)
+-Towns: Esabury(-180,-20), Mirevon(-145,-35)
+-Vil: Silvagh[Sil](-155,-75), Vlinas(-138,-25), Glorre(-122,-15)
+-Ham: Swampwood[Swoo](-166,-85), Kharn(-115,-45)
+O&A:
+-(TDK)Tide Keepers[LN]: Control docking bays, shipbuilding, & sea/river port commerce. Rival: DNR, CNL
+-(ART)Artisan Society[LN]: Craft magical devices, artworks; Ally: TDK, HCA
+-(DLF)Delta Fleet[LN]: Protect harbors & trade routes from piracy; Ally: TDK
+-(HCA)Crest Council[LE]: Aristocrats "lobbying" for the throne; stage "heroic" feats for their scions & sabotage others; Rival: IFU
+-(COR)Corsair Brotherhood[CE]: pirates & smugglers; operate from Pyre(rumors); Rival: DLF, TDK; Ally: GPX
+-(OBC)Obsidian Coin[NE]: criminal syndicate; gambling dens, narcotics, slave trade; infiltrated high society. Boldly disrupt EL ops; EL ignores them as rivals
+P&G
+-Ruled by an ancient dynasty; the monarch picks the successor based on demonstrated ability; formal acceptance via magically binding oath of sovereignty
+-Wealth & influence tied to trade & shipbuilding
+Culture:
+-Vibrant mix of traditions; theater, dancing, tourneys, festivals, boat races, swim contests, arena duels
+-Architecture: colorful bldgs, lighthouses, docks, & warehouses
+-Daily life revolves around maritime culture
+---
+Merchant’s Pass[MP] (Mid-East): Vast desert (dunes, oases); scorching by day, chilly at night. Frequented by Haboob & mirages. Once home to an Ancient Magocratic Republic whose ambitions grew too much, practiced dark magic & scourged the land, turning it into desert & mutating its denizens into formidable creatures(giant scorpions, sandworms, etc),Flora has healing properties(very rare & valuable). Ruins submerged in sands, dust storms usually peel back the dunes to reveal them for intrepid explorers
+-Verdant Lush: banks of GR, mi-wide strip of greenery where food grows naturally in MP. SKC vs CNL Area of Conflict
+-Races: 25%Human, 25%Genasi, 15%Dragonborn, 10%Kalashtar, 10%Yuan-ti, 15%(Tiefling, Lizardfolk, Minotaur, Orc)
+Set:
+-Met: Leskyir(0,0)
+-Towns: Serenity(77,33)
+-Vil: Dust(94,18), Sandwood[sand](-21,-25)
+-Ham: Various Nomadic Camps(scattered throughout the desert)
+O&A:
+-(DNR)Dune Runners[TN]: Organize & protect desert trade routes; Rival: CNL, TDK; Ally: DBG
+-(SKC)Sand-Kin Clans[CN]: loose alliance of clans, knows secret routes, healing cacti, hidden oases; migrate seasonally for water & grazing; Rival: CNL
+-(DBG)Dust-Born Guard[TN]: local mercs; offer cheap protection for caravans & travelers
+-(SVC)Sand Viper Cartel[NE]: black market narcotics, incense, spices. Rivals: OBC, GPX
+-(CSW)Crimson Swords[CE]: bandit raiders operating during dust storms; Rival: DNR, DBG
+P&G
+-Managed by a trade conglomerate; thru a Consortium of 7 Merchant princes/princesses
+-Nomadic clans govern their own territories; alliances are fluid & enforced by mutual trade benefits
+-Disputes settled by negotiation, duels, or mercenary might
+Culture:
+-Survival, trade, hospitality, treachery is met w/ brutal justice
+-Clothing & architecture adapted to heat: flowing robes, tents, shaded marketplaces
+-Painting & tattooing, chariot racing, arena duels, sand surfing
+---
+Fading Swamp[FS](SE): Expansive area of swamplands, marshes, bogs & fens; exotic & dangerous flora/fauna. A forgotten empire, Ada-vianelle, poised to spread & rule over the entire continent, suddenly fell to an unknown cataclysm eons ago, ruins lay half/fully submerged in the swamp, filled w/ traps & treasures
+-Races: 25%Lizardfolk, 15%Locathah, 15%Vedalken, 15%Kenku, 10%Grung, 10%Bugbear, 10%(Changeling, Goblin, Yuan-ti, Kobold)
+Set:
+Vil: Istegan(88,-124), Varapor(95,-161)
+O&A:
+-(MAP)Mire Apothecaries[LG]: Harvest & trade medicinal & magical herbs/plants; Ally: SKC, PIL
+-(BWA)Blightwalker[NE]: clandestine remnants of dark druids & shadow/necromantic magic users; partially responsible for the cataclysm & want to raise undead creatures
+P&G:
+-Overseen by elders; communal decisions; leadership based on experience & wisdom not wealth
+Culture:
+-Herbalism, fishing, swamp agriculture, & druid magic
+-Architecture: Homes built from woven reeds & mud, stilts over waterways, boardwalks & bridges connect structures
+-Slow-paced, communal, superstitious
+---
+Khigvorda–Iron Ridge Mountains[IRM](SW): Granite peaks filled w/ extensive network of abandoned mineshafts, steep cliffs, snow caps, caves, & hidden valleys. Home to various flying creatures like griffons, harpies, drakes, dragons, wyverns. Gigge & Hillbur sit along the edge of Lapuz Lake(-80,-66): massive alpine reservoir fed by glacial melt, incredibly deep. Pipes channel water to Hillbur for farming; Gigge artificers use water flow to power waterwheels
+-Races: 25% Mt Dwarf, 10%Hill Dwarf, 15%RockGnome, 10%Orc, 10% Goliath, 30%(Dragonborn, Human, Tiefling, Firbolg, Hobgoblin)
+Set:
+-Met: Veladhur(-77,-99)
+-Cities: Hillbur(-66,-66), Dhuran(-101,-110)
+-Towns: Gigge(-94,-65), Venragh(-134,-106)
+-Vil: Therum(-96,-187; armor), Gondoba(-75,-125)
+-Ham: Stonehaven[Shav](-155,-144), Ironhaven(-45,-115)
+O&A:
+-(DSD)Deepstone Delvers(LN): ore mining, trade, & safety; Ally: ORM, EC
+-(ORM)Ore Masters(LN): Craft enchanted tools, weapons, & stonework. Rival: ART & their shiny trinkets
+-(SGC)Stoneguard Company[LE]: Private security exclusively employed by the wealthy
+-(GPX)Gold Pickaxe Syndicate(NE): smugglers & black mkt dealers of dwarven artisan products via Serpent's wake, bribes SGC
+P&G:
+-Governed by the Assembly of 9 Dwarven Thanes (powerful, isolationist)
+-Trade contracts & craftsmanship standards lawfully enforced
+Culture:
+-Strong traditions of crafting, smithing
+-Festivals feature forging contests, feasts, tourneys, rock hurling contest, flying mount races
+-Architecture: sturdy stonework, grand fortifications, & elaborate halls w/ gem-inlaid decor

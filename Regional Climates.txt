@@ -1,0 +1,33 @@
+
+Regional Climates
+-Forest of Allanar (Forest)
+SPR: G: Cloudy/Drizzle | B: Rain | V: Hurricane
+SMM: G: Sunny | B: Haze | V: Thunderstorm
+FLL: G: Cool | B: Dense Fog | V: Frost
+WNT: G: Frost | B: Snow | V: Blizzard
+
+-Starview Plains (Plains)
+SPR: G: Windy | B: Rain | V: Tornado
+SMM: G: Sunny | B: Heatwave | V: Wildfire
+FLL: G: Clear | B: Sleet | V: Ice Storm
+WNT: G: Frost | B: Snow | V: Blizzard
+
+-Merchant's Pass (Desert)
+SPR/FLL: G: Hot Day/Cool Night | B: Strong Winds | V: Sandstorm
+SMM: G: Hot | B: Heatwave | V: Haboob
+WNT: G: Clear | B: Freezing Wind | V: Thunderstorm
+
+-Ghivanni Delta (Coastal)
+SPR: G: Windy | B: Squall | V: Typhoon
+SMM: G: Humid | B: Monsoon | V: Cyclone
+FLL: G: Misty | B: Fog | V: Gale
+WNT: G: Cool | B:Hail | V: Hailstorm
+
+-Fading Swamp (Swamp)
+SPR/SMM: G: Humid | B: Insect Swarm | V: Flash Flood
+FLL: G: Cloudy | B: Miasma | V: Acidic Rain
+WNT: G: Frost | B: Freezing Rain | V: Glaze
+
+-Iron Rdge Mountains (Mountains):
+SPR/SMM: G: Clear | B: Rain  | V: Rockslides
+FLL/WNT: G: Frost | B: Snow | V: Blizzard
