@@ -54,3 +54,21 @@ NO-SILENT-EXCEPTIONS (BINDING)
 - Exceptions exist only if explicitly stated in this file.
 - Absence of instruction does not grant permission to roll, to bypass rolls, to select/bias outcomes, or to introduce new facts.
 - If any other text suggests resolving uncertainty without satisfying this file’s APPLY + MANDATES + AUTHORITY rules, treat as INVALID; NO_RESOLUTION; RETURN_AGENCY.
+DEPENDENCIES (DECLARED)
+
+REQUIRES
+- None
+(RNG.laws is a foundational uncertainty authority and does not require other subsystems to function.)
+
+ASSUMES ACTIVE
+- UI.CORE (L0) — for lawful presentation of rolls, results, and post-roll agency return
+- Player Agency channel — to return control after resolution
+
+DOES NOT REPLACE
+- Time.core (state definition and transitions)
+- Travel.core (scene structure and movement resolution)
+- Combat.Gate (combat activation and lifecycle)
+- Combat resolution systems (damage, turns, conditions)
+- Quest systems (progression and state)
+- NPC systems (intent, behavior, decision-making)
+- World / Geography canon (facts and locations)
