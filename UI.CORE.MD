@@ -47,3 +47,22 @@ NO-SILENT-EXCEPTIONS (BINDING)
 - UI legality is binary: VALID or INVALID.
 - Absence of instruction does not permit block omission, reordering, merging, or implied mechanics.
 - If any output violates precedence, block order, HARD_STOP format, or PLAYER_AGENCY requirements, treat as INVALID_UI; HALT_PRESENTATION.
+DEPENDENCIES (DECLARED)
+
+REQUIRES
+- None
+(UI.CORE is a foundational legality layer and does not require other subsystems to function.)
+
+ASSUMES ACTIVE
+- Time.core (L0) — for inclusion of WORLD_STATE time data when present
+- Combat.UI.SPEC (L0/L1, when MODE=COMBAT) — for specialized combat UI blocks
+- Travel.core (L0, when MODE=TRAVEL) — for travel-mode legality rules
+- Player Agency channel — to return control and decisions
+
+DOES NOT REPLACE
+- Combat.Gate (combat activation and lifecycle)
+- RNG.laws (roll authority and resolution)
+- Travel.core (scene and movement resolution)
+- Quest systems (progression and state)
+- NPC systems (intent and behavior)
+- World / Geography canon
