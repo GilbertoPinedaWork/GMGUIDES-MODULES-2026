@@ -1,3 +1,11 @@
+COMBAT.GATE — L0 CANON LAW
+STATUS: HARDENED (PHASE 3)
+SCOPE: Defines the sole legal entry into Combat Mode, the mandatory activation conditions, and the atomic initialization boundary. Governs when combat may and may not exist.
+NON-OVERRIDABLE: No lower-strata text may override, relax, bypass, or infer around this law.
+EXCLUSIONS: This law does not define combat turn mechanics, damage resolution, condition effects, AI tactics, UI presentation, or post-combat cleanup beyond the gate and initialization boundary.
+
+LAW BODY (SOURCE TEXT; PRESERVED)
+
 COMBAT.GATE (LAW)
 Combat exists ONLY_IF system declares: “Combat Mode is activated.”
 
@@ -40,3 +48,9 @@ PROHIBITED DURING INITIALIZATION:
 ON COMPLETION:
 - Enter turn cycle.
 - Reverting to narrative mode is prohibited until combat ends by rule.
+
+
+NO-SILENT-EXCEPTIONS (BINDING)
+- Combat may exist ONLY if this gate is satisfied exactly.
+- Absence of instruction does not permit early actions, soft activation, narrative damage, or retroactive justification.
+- If any other text implies combat effects without a valid gate activation, treat as INVALID; COMBAT_NOT_ACTIVE; NO_MECHANICS.
