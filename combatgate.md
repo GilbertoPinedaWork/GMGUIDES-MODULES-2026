@@ -72,3 +72,22 @@ DOES NOT REPLACE
 - NPC systems (decision-making and intent)
 - Quest systems (progression or triggers)
 - World / Geography canon
+
+
+PHASE 4.2 — EXPLICIT CLARIFICATIONS (NON-MECHANICAL)
+
+CLARIFICATION — “NOT RESOLVABLE IN FREE NARRATIVE”
+- This means temporal ordering and mechanical interaction are required to resolve the hostility.
+- It does not permit narrative damage, conditions, or retroactive mechanics prior to activation.
+
+CLARIFICATION — “IMMEDIATELY IMMINENT”
+- “Immediately imminent” means the hostile action would occur next absent intervention.
+- Verbal threats, posturing, or distant intent are insufficient.
+
+CLARIFICATION — “PARTICIPANTS”
+- Participants are entities explicitly declared as present and mechanically interactive.
+- No participant may be assumed or added retroactively based on narrative inference.
+
+CLARIFICATION — INITIALIZATION BOUNDARY
+- Initialization performs only the listed setup steps.
+- Any outcome resolution (hits, damage, conditions, reactions) is prohibited until after initialization completes.

@@ -77,3 +77,24 @@ DOES NOT REPLACE
 - NPC systems (behavior and agency)
 - Quest systems (progression and triggers)
 - Route, climate, or region data files (descriptive inputs only)
+
+PHASE 4.2 — EXPLICIT CLARIFICATIONS (NON-MECHANICAL)
+
+CLARIFICATION — SCENE DEFINITION
+- A travel scene exists ONLY when TRAVEL_MODE_ACTIVE is explicitly set by the system.
+
+CLARIFICATION — CONSEQUENCES
+- “Consequences” means risk, loss, delay, encounter, discovery, or resource change.
+- None may occur unless explicitly declared before resolution.
+
+CLARIFICATION — LOCATION
+- Location identity is descriptive only and sourced from World / Geography canon.
+- No effects are implied by location change alone.
+
+CLARIFICATION — FA (FOREST OF ALLANAR)
+- “FA” refers exclusively to the Forest of Allanár.
+- FA travel rules apply ONLY_IF FA_ACTIVE explicitly indicates the Forest of Allanár context.
+- If FA_ACTIVE is false or undefined, FA rules are inert.
+
+CLARIFICATION — NPC INVOLVEMENT
+- NPC involvement means an NPC is explicitly declared as a participant subject to RNG or Combat systems.

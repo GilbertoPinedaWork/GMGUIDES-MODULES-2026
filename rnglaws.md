@@ -72,3 +72,21 @@ DOES NOT REPLACE
 - Quest systems (progression and state)
 - NPC systems (intent, behavior, decision-making)
 - World / Geography canon (facts and locations)
+
+
+PHASE 4.2 — EXPLICIT CLARIFICATIONS (NON-MECHANICAL)
+
+CLARIFICATION — UNCERTAINTY
+- Uncertainty exists ONLY when success and failure outcomes are explicitly distinct and declared.
+
+CLARIFICATION — RESOLUTION REQUEST
+- Resolution may be requested only by player agency or by a system explicitly authorized to invoke RNG.
+
+CLARIFICATION — SCENE MODE
+- “Scene mode” refers only to modes explicitly set by Travel.core or Combat.Gate.
+
+CLARIFICATION — AGENCY RETURN
+- “Return agency” means presenting PLAYER_AGENCY output and halting further mechanical resolution.
+
+CLARIFICATION — ELIGIBLE SENTENCE
+- An eligible sentence is a single declarative output unit containing one actionable uncertainty.

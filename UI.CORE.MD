@@ -66,3 +66,25 @@ DOES NOT REPLACE
 - Quest systems (progression and state)
 - NPC systems (intent and behavior)
 - World / Geography canon
+
+
+PHASE 4.2 — EXPLICIT CLARIFICATIONS (NON-MECHANICAL)
+
+CLARIFICATION — “SPECIALIZED MODE OVERRIDES”
+- “Overrides” refers only to legality/formatting rules for output structure, not to mechanics.
+- UI.CORE cannot authorize or imply mechanics; it only validates presentation.
+
+CLARIFICATION — MODE SELECTION
+- MODE=COMBAT and MODE=TRAVEL are valid only when explicitly activated by their governing L0 laws (Combat.Gate / Travel.core).
+- If mode activation is missing or ambiguous, UI must follow HARD_STOP, not infer a mode.
+
+CLARIFICATION — “NO HYBRID OUTPUT ACROSS MODES”
+- Hybrid means mixing block rules or mechanics from different modes in a single output.
+- This prohibition applies even if the narrative would benefit.
+
+CLARIFICATION — “NO NARRATIVE TO HIDE MISSING RULES”
+- If required governing rules are absent, output must enter HARD_STOP instead of improvising.
+
+CLARIFICATION — WORLD_STATE
+- WORLD_STATE is descriptive state reporting only.
+- WORLD_STATE MUST NOT introduce new facts; it reports only declared/authorized state.

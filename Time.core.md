@@ -38,3 +38,21 @@ NO-SILENT-EXCEPTIONS (BINDING)
 - Exceptions exist only if explicitly stated in this file.
 - Absence of instruction does not grant permission to infer a TIME change.
 - If any other text implies TIME changes without meeting this file's CHANGE rule, treat as INVALID; NO_CHANGE.
+
+
+PHASE 4.2 — EXPLICIT CLARIFICATIONS (NON-MECHANICAL)
+
+CLARIFICATION — FX+ BOUNDARY
+- FX+ effects are descriptive output only.
+- FX+ MUST NOT create, modify, imply, or justify any mechanical, temporal, or state change.
+
+CLARIFICATION — FICTIONAL EFFECTS
+- Availability, ambience/tone, light, and sound are descriptive only.
+- These confer no permissions, modifiers, schedules, or implied actions.
+
+CLARIFICATION — SYSTEM DECLARATION
+- “SYSTEM declaration” refers only to subsystems explicitly authorized by this law to invoke TIME OPS.
+
+CLARIFICATION — COMBAT / TRAVEL
+- Combat systems and Travel systems MUST NOT invoke STEP_NEXT, JUMP, or SET on TIME
+  unless routed through this file via an explicit CHANGE operation.
